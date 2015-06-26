@@ -26,7 +26,7 @@ set.seed(myseed)
 # 7. Diabetes pedigree function
 # 8. Age (years)
 # 9. Class variable (0 or 1)
-pima <- read.csv("pima-indians-diabetes.data", header=FALSE)
+pima <- read.csv("data/pima-indians-diabetes.data", header=FALSE)
 pnames <- c("NumPreg", "Glucose", "BloodPressure", "Triceps", 
             "Insulin", "BMI", "Pedigree", "Age", "Class")
 names(pima) <- pnames
